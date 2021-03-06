@@ -14147,6 +14147,9 @@ Range: 4.0-15V</text>
 <text x="139.7" y="137.16" size="1.778" layer="97">PB4</text>
 <text x="139.7" y="139.7" size="1.778" layer="97">PB3</text>
 <text x="7.62" y="15.24" size="1.27" layer="97">CRX3, CTX3, CS2, BUTTON</text>
+<wire x1="180.34" y1="93.98" x2="231.14" y2="93.98" width="0.1524" layer="97"/>
+<wire x1="231.14" y1="93.98" x2="231.14" y2="12.7" width="0.1524" layer="97"/>
+<wire x1="231.14" y1="12.7" x2="180.34" y2="12.7" width="0.1524" layer="97"/>
 </plain>
 <instances>
 <instance part="U1" gate="A" x="22.86" y="76.2" smashed="yes">
@@ -14472,15 +14475,15 @@ Range: 4.0-15V</text>
 <attribute name="NAME" x="-7.62" y="35.56" size="1.778" layer="95"/>
 <attribute name="VALUE" x="0" y="26.67" size="1.778" layer="96"/>
 </instance>
-<instance part="J2" gate="G$1" x="231.14" y="81.28" smashed="yes">
-<attribute name="NAME" x="218.44" y="95.25" size="1.778" layer="95"/>
-<attribute name="VALUE" x="218.44" y="66.04" size="1.778" layer="96"/>
+<instance part="J2" gate="G$1" x="205.74" y="55.88" smashed="yes" rot="R90">
+<attribute name="NAME" x="191.77" y="43.18" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="220.98" y="43.18" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="SUPPLY17" gate="G$1" x="198.12" y="88.9" smashed="yes">
-<attribute name="VALUE" x="198.12" y="91.694" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY17" gate="G$1" x="198.12" y="22.86" smashed="yes" rot="R90">
+<attribute name="VALUE" x="195.326" y="22.86" size="1.778" layer="96" rot="R90" align="bottom-center"/>
 </instance>
-<instance part="GND24" gate="1" x="198.12" y="73.66" smashed="yes">
-<attribute name="VALUE" x="198.12" y="73.406" size="1.778" layer="96" align="top-center"/>
+<instance part="GND24" gate="1" x="213.36" y="22.86" smashed="yes" rot="R90">
+<attribute name="VALUE" x="213.614" y="22.86" size="1.778" layer="96" rot="R90" align="top-center"/>
 </instance>
 <instance part="F1" gate="G$1" x="-60.96" y="137.16" smashed="yes">
 <attribute name="VALUE" x="-64.77" y="135.89" size="1.778" layer="96"/>
@@ -14725,9 +14728,9 @@ Range: 4.0-15V</text>
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="VSS"/>
-<wire x1="213.36" y1="78.74" x2="198.12" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="38.1" x2="208.28" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="GND24" gate="1" pin="GND"/>
-<wire x1="198.12" y1="78.74" x2="198.12" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="22.86" x2="210.82" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="3.3V" class="0">
@@ -14825,9 +14828,9 @@ Range: 4.0-15V</text>
 </segment>
 <segment>
 <pinref part="SUPPLY17" gate="G$1" pin="3.3V"/>
-<wire x1="198.12" y1="88.9" x2="198.12" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="22.86" x2="203.2" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="J2" gate="G$1" pin="VDD"/>
-<wire x1="198.12" y1="83.82" x2="213.36" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="22.86" x2="203.2" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VIN" class="0">
@@ -15432,8 +15435,8 @@ Range: 4.0-15V</text>
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="CMD(DI)"/>
-<wire x1="213.36" y1="86.36" x2="208.28" y2="86.36" width="0.1524" layer="91"/>
-<label x="208.28" y="86.36" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="200.66" y1="38.1" x2="200.66" y2="33.02" width="0.1524" layer="91"/>
+<label x="200.66" y="33.02" size="1.27" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="MISO2" class="0">
@@ -15454,8 +15457,8 @@ Range: 4.0-15V</text>
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="DAT0(DO)"/>
-<wire x1="213.36" y1="76.2" x2="208.28" y2="76.2" width="0.1524" layer="91"/>
-<label x="208.28" y="76.2" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="210.82" y1="38.1" x2="210.82" y2="33.02" width="0.1524" layer="91"/>
+<label x="210.82" y="33.02" size="1.27" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="SCK2" class="0">
@@ -15476,8 +15479,8 @@ Range: 4.0-15V</text>
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="CLK(SCK)"/>
-<wire x1="213.36" y1="81.28" x2="208.28" y2="81.28" width="0.1524" layer="91"/>
-<label x="208.28" y="81.28" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="205.74" y1="38.1" x2="205.74" y2="33.02" width="0.1524" layer="91"/>
+<label x="205.74" y="33.02" size="1.27" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="CTX3" class="0">
@@ -15577,8 +15580,8 @@ Range: 4.0-15V</text>
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="CD/DAT3(!CS!)"/>
-<wire x1="213.36" y1="88.9" x2="208.28" y2="88.9" width="0.1524" layer="91"/>
-<label x="208.28" y="88.9" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="198.12" y1="38.1" x2="198.12" y2="33.02" width="0.1524" layer="91"/>
+<label x="198.12" y="33.02" size="1.27" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="PA11" class="0">
