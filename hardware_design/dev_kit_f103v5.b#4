@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mil" altunit="mil"/>
+<grid distance="10" unitdist="mil" unit="mil" style="dots" multiple="1" display="yes" altdistance="0.1" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -188,14 +188,14 @@
 <board>
 <fusionsync huburn="a.YnVzaW5lc3M6aG90bWFpbDIyNDAyOA" projecturn="a.YnVzaW5lc3M6aG90bWFpbDIyNDAyOCNEMjAyMTAyMjEzODUxOTQzMjY" f3durn="urn:adsk.wipprod:dm.lineage:v7xMcjD_S_O2Hiv2KweMyQ" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="51e963e1-38e5-4a9e-8d1c-e0263d1e09e8" lastsyncedrevisionid="51e963e1-38e5-4a9e-8d1c-e0263d1e09e8" lastboardhashguid="6efac04f-71c7-0f41-3e72-0048a3e20723" lastpushedtime="2021-03-05T07:59:24Z" linktopcb3d="true"/>
 <plain>
-<wire x1="64.6684" y1="68.8086" x2="11.303" y2="68.7832" width="0" layer="20"/>
+<wire x1="64.6684" y1="68.7832" x2="11.303" y2="68.7832" width="0" layer="20"/>
 <wire x1="11.303" y1="68.7832" x2="10.0584" y2="67.277765625" width="0" layer="20" curve="90.226682"/>
 <wire x1="10.0584" y1="67.277765625" x2="10.0584" y2="1.771290625" width="0" layer="20"/>
-<wire x1="10.0584" y1="1.771290625" x2="12.1666" y2="-0.508" width="0" layer="20" curve="89.778554"/>
-<wire x1="12.1666" y1="-0.508" x2="64.9732" y2="-0.508" width="0" layer="20"/>
+<wire x1="10.0584" y1="1.771290625" x2="12.0777" y2="-0.508" width="0" layer="20" curve="89.778554"/>
+<wire x1="12.0777" y1="-0.508" x2="64.9732" y2="-0.508" width="0" layer="20"/>
 <wire x1="64.9732" y1="-0.508" x2="66.8274" y2="0.997634375" width="0" layer="20" curve="90.226682"/>
-<wire x1="66.8274" y1="0.997634375" x2="66.8528" y2="66.808909375" width="0" layer="20"/>
-<wire x1="66.8528" y1="66.808909375" x2="64.6684" y2="68.8086" width="0" layer="20" curve="89.778554"/>
+<wire x1="66.8274" y1="0.997634375" x2="66.8274" y2="66.808909375" width="0" layer="20"/>
+<wire x1="66.8274" y1="66.808909375" x2="64.6684" y2="68.7832" width="0" layer="20" curve="89.778554"/>
 <hole x="64.008" y="2.5908" drill="3.5"/>
 <hole x="13.208" y="2.5908" drill="3.5"/>
 <hole x="13.208" y="65.6844" drill="3.5"/>

@@ -200,6 +200,8 @@
 <hole x="13.208" y="2.5908" drill="3.5"/>
 <hole x="13.208" y="65.6844" drill="3.5"/>
 <hole x="64.008" y="65.6844" drill="3.5"/>
+<text x="16.764" y="64.516" size="2.54" layer="21">BRAIN.DLL</text>
+<text x="38.1" y="64.77" size="2.54" layer="21">05.03.2021</text>
 </plain>
 <libraries>
 <library name="SparkFun-Connectors" urn="urn:adsk.eagle:library:513">
